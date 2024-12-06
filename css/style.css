@@ -1,0 +1,1814 @@
+/* Reset Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Global Styles */
+body {
+    font-family: "Inter", sans-serif;
+    text-transform: capitalize;
+    color: white;
+}
+
+/* Navigation Bar */
+nav {
+    width: 100%;
+    min-height: 86px;
+    background-color: #0B9586;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav .logo {
+    max-width: 157px;
+    height: auto;
+}
+
+nav .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 8px 28px;
+    color: white;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #0A8A7C;
+    border-bottom: 5px solid #076258;
+}
+
+/* Contact Info */
+.contact p {
+    padding: 5px 10px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact p+p {
+    letter-spacing: 5px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* hero Section */
+header {
+    height: 100dvh;
+    width: 100%;
+    background-image: url(/Assets/Hero-image.png);
+    background-position: top center;
+    background-size: cover;
+}
+header .hero-section {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+header .hero-section .hero-content {
+    max-width:729px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+}
+header .hero-section  .line {
+    width: 332.83px;
+    max-height: 24.77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+header .hero-section  .line .hr {
+    width: 220.59px;
+    background-color: #575757;
+}
+header .hero-section  .line .hr hr {
+    max-width: 89.01px;
+}
+header .hero-section .hero-content .line p {
+    font-size: 19px;
+    font-weight: 400;
+}
+header .hero-section .hero-content .main-text h1 {
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+header .hero-section .hero-content .main-text h4 {
+    width: 729px;
+        max-height: 90px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+}
+/* Buttons */
+header .hero-content .buttons {
+    display: flex;
+    gap: 25px;
+}
+
+header .hero-content .buttons button , .shop .shop-container .shop-content .shop-button button {
+    padding: 12px 34px;
+    font-size: 14px;
+    cursor: pointer;
+    -o-border-radius: 109px;
+    border: none;
+    text-transform: capitalize;
+    -webkit-border-radius: 109px;
+    -moz-border-radius: 109px;
+    -ms-border-radius: 109px;
+    border-radius: 109px;
+}
+
+header .hero-content .buttons .button-one {
+    background-color: #60a888;
+    color: white;
+}
+
+header .hero-content .buttons .button-two , .shop .shop-container .shop-content .shop-button button {
+    background-color: #FFE31A;
+}
+/* trade section  */
+.trade {
+    width: 100%;
+    background-color: white;
+}
+.trade .container {
+    width:90%;
+    height:auto;
+    margin: 0px auto;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.trade .container .trade-content {
+    width:594px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 20px;
+}
+.trade .container .trade-content .trade-title {
+    width: 594px;
+    height: auto;
+}
+.trade .container .trade-content .trade-title h2 {
+        font-family: Inter;
+            font-size: 42px;
+            font-weight: 600;
+            line-height: 50.83px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+}
+.trade .container .trade-content .trade-text {
+    width: 594px;
+    height: auto;
+}
+.trade .container .trade-content .trade-text p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: rgba(71, 84, 103, 1);
+}
+.trade .container .trade-content .trade-list {
+    width: 498px;
+        height:auto;
+        gap: 12px;
+        opacity: 0px;
+}
+.trade .container .trade-content .trade-list span {
+    color: rgba(132, 189, 58, 1);
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23.28px;
+        letter-spacing: 4px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        margin-right: 5px;
+}
+.trade .container .trade-content .trade-list ul {
+    list-style: none;
+}
+.trade .container .trade-content .trade-list ul li {
+    width: 498px;
+    height:auto;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+}
+.trade .container .trade-img {
+    width: 518.52px;
+    height: 552px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trade .container .trade-img img {
+    -o-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    border-radius: 12px;
+    width: 469px;
+    height: 452px;
+}
+.trade .container .trade-img .box {
+    width: 266px;
+    height: auto;
+    position: absolute;
+    left: 5px;
+    bottom: 74px;
+}
+.trade .container .trade-img .box img {
+    width: 100%;
+    height: 100%;
+}
+/*  */
+.shop {
+    width: 100%;
+    height: 80dvh;
+}
+.shop .shop-container {
+    width: 100%;
+    height: 100%;
+    background-image: url(/Assets/8116\ 1.png);
+        background-position: top center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+}
+.shop .shop-container .shop-content {
+    width: 80%;
+    margin: 0px auto;
+        height: auto;
+        gap: 32px;
+        opacity: 0px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+}
+.shop .shop-container .shop-content .shop-title {
+    width: 678px;
+    height: auto;
+    gap: 0px;
+    opacity: 0px;
+}
+.shop .shop-container .shop-content .shop-title h2 {
+        font-size: 42px;
+        font-weight: 600;
+}
+.shop .shop-container .shop-content .shop-text p {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 28px;
+            width: 678px;
+            height: 56px;
+}
+/*  */
+.solar-kit {
+    width: 100%;
+    height: auto;
+}
+.solar-kit .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    margin: 30px auto;
+    gap: 20px;
+}
+.solar-title {
+    width: 936px;
+        height:123px;
+        gap: 24px;
+        opacity: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: black;
+        text-align: center;
+        margin: 20px auto;
+
+}
+.solar-title h2 {
+    width: 936px;
+        height: 51px;
+        font-family: "Inter";
+            font-size: 42px;
+            font-weight: 600;
+            line-height: 50.83px;
+            letter-spacing: -0.02em;
+}
+.solar-title p {
+    width: 936px;
+        height: 51px;
+            font-family: "Inter";
+            font-size: 16px;
+            font-weight: 400;
+}
+.solar-cards {
+    width: 1, 140px;
+        height: 454px;
+        gap: 32px;
+        opacity: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+}
+.solar-cards .card {
+    width: 358.67px;
+        height:454px;
+        gap: 0px;
+        opacity: 0px;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    }
+        .solar-cards .card .card-img {
+            width: 358.67px;
+                height: 240px;
+                gap: 0px;
+                opacity: 0px;
+        }
+                                .solar-cards .card .card-img img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+        .solar-cards .card .card-text {
+            width: 358.67px;
+                height: 214px;
+                padding: 20px 0px 0px 0px;
+                gap: 24px;
+                opacity: 0px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                flex-direction: column;
+                padding: 10px 15px;
+        }
+                .solar-cards .card .card-text .card-title {
+                    width: 318.67px;
+                        height: 30px;
+                        gap: 0px;
+                        opacity: 0px;
+                            font-family: "Inter";
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 30px;
+                            padding: 10px 0px;
+                }
+                .solar-cards .card .card-text .card-Subtext {
+                            font-family: "Inter";
+                            font-size: 16px;
+                            font-weight: 400;
+                }
+                                .solar-cards .card .card-text .card-link a , i {
+                                    text-decoration: none;
+                                    color: rgba(60, 171, 144, 1);
+                                        font-family: "Inter";
+                                        font-size: 16px;
+                                        font-weight: 600;
+                                        line-height: 24px;
+                                        padding: 10px 0px;
+                                        margin-right: 5px;
+                                }
+    /*  */
+    .Repairs .container {
+        width: 100%;
+        height: 70dvh;
+        background-image: url(/Assets/l.png);
+        background-position: top center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+    }
+    .Repairs .container .Repairs-content {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 858px;
+                height:311px;
+                padding: 44px 0px 0px 0px;
+                gap: 22px;
+                -o-border-radius: 12px;
+                opacity: 0px;
+                background-color: rgba(0, 0, 0, 0.57);
+                backdrop-filter: blur(24px);
+                -webkit-border-radius: 12px;
+                -moz-border-radius: 12px;
+                -ms-border-radius: 12px;
+                border-radius: 12px;
+}
+                .Repairs .container .Repairs-content .Repairs-title {
+                    width: 770px;
+                        height: 51px;
+                        gap: 0px;
+                        opacity: 0px;
+                }
+                                .Repairs .container .Repairs-content .Repairs-title h2 {
+                                    font-family: "Inter";
+                                        font-size: 42px;
+                                        font-weight: 600;
+                                        line-height: 50.83px;
+                                        letter-spacing: -0.02em;
+                                        text-align: center;
+                                }
+                .Repairs .container .Repairs-content .Repairs-Subtext {
+                    width: 770px;
+                        height: 140px;
+                        gap: 0px;
+                        opacity: 0px;
+                }
+                .Repairs .container .Repairs-content .Repairs-Subtext p{
+                    font-family: "Inter";
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 28px;
+                        text-align: center;
+                }
+                /*  */
+                .Energy {
+                    margin-bottom: 30px;
+                }
+    .Energy .container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+        background-color: #FFBB1C0D;
+    }
+                .Energy .container .Energy-content {
+                    width: 90%;
+                    height: 100%;
+                    display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        color: black;
+                }
+                                .Energy .container .Energy-content .Energy-mainBox .mainBox-icon {
+                                    display: flex;
+                                    align-self: flex-start;
+                                }
+                        .Energy .container .Energy-content h3 {
+                                font-family: "Inter";
+                                font-size: 20px;
+                                font-weight: 600;
+                                line-height: 30px;
+                                color: #101828;
+                        }
+                        .Energy .container .Energy-content p {
+                                    font-family: "Inter";
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    line-height: 24px;
+                                    color: #475467;
+                        }
+                .Energy .container .Energy-content .Energy-mainBox {
+                    width: 358.67px;
+                    height: 337px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 20px;
+                    align-self: flex-start;
+                }
+                    .Energy .container .Energy-content .Energy-mainBox  .mainBox-title {
+                        width: 358.67px;
+                            height: 153px;
+                            gap: 0px;
+                            opacity: 0px;
+                    }
+                    .Energy .container .Energy-content .Energy-mainBox  .mainBox-title h3 {
+                        font-family: "Inter";
+                            font-size: 42px;
+                            font-weight: 600;
+                            line-height: 50.83px;
+                            letter-spacing: -0.02em;
+                    }
+                    .Energy .container .Energy-content .Energy-mainBox  .mainBox-Subtext  {
+                        width: 358.67px;
+                            height: 84px;
+                            gap: 0px;
+                            opacity: 0px;
+                    }
+                    .Energy .container .Energy-content .Energy-mainBox  .mainBox-Subtext p  {
+                            font-family: "Inter";
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 28px;
+                    }
+                .Energy .container .Energy-content .boxGroupOne {
+                    width:358.67px;
+                        height:814px;
+                        gap: 32px;
+                        opacity: 0px;
+                        display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                            align-self: flex-start;
+                }
+                                .Energy .container .Energy-content .boxGroupOne .box , .boxGroupTwo .box {
+                                        width: 358.67px;
+                                        height: 418px;
+                                        padding: 24px 0px 0px 0px;
+                                        gap: 32px;
+                                        opacity: 0px;
+                                        border: 1px solid #3CAB90;
+                                        -o-border-radius: 12px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        flex-direction: column;
+                                        -webkit-border-radius: 12px;
+                                        -moz-border-radius: 12px;
+                                        -ms-border-radius: 12px;
+                                        border-radius: 12px;
+                                        background-color: #3CAB900D;
+}
+        .Energy .container .Energy-content  .box  .box-img{
+            width:310.67px;
+                height:106px;
+                gap: 10px;
+                border-radius: 10px 0px 0px 0px;
+                opacity: 0px;
+        }
+                .Energy .container .Energy-content .box .box-img img {
+                    width: 100%;
+                    height: 100%;
+                }
+        .Energy .container .Energy-content  .box  .box-content{
+            width: 310.67px;
+                height: Hug (232px)px;
+                gap: 20px;
+                opacity: 0px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                flex-direction: column;
+        }
+        .Energy .container .Energy-content  .box  .box-link{
+            width:100%;
+                height: 24px;
+                gap: 8px;
+                opacity: 0px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                padding: 20px;
+                color: #3CAB90;
+        }
+                .Energy .container .Energy-content .box .box-link a {
+                    color: #3CAB90;
+                        font-family: "Inter";
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        text-decoration: none;
+                }
+                .Energy .container .Energy-content .boxGroupTwo {
+                    width: 358.67px;
+                        height:862px;
+                        gap: 32px;
+                        opacity: 0px;
+                        display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+                }
+        /*  */
+        .values .container {
+            width: 100% ;
+            height: auto;
+            color: black;
+            margin: 30px 0px;
+        }
+                .values .container .values-content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+                        .values .container .values-content .values-title {
+                            width: 1, 140px;
+                                height: 107px;
+                                gap: 28px;
+                                opacity: 0px;
+                                display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    flex-direction: column;
+                        }
+                        .values .container .values-content .values-title h3 {
+                            font-family: "Inter";
+                                font-size: 42px;
+                                font-weight: 600;
+                                line-height: 50.83px;
+                                letter-spacing: -0.02em;
+                                text-align: center;
+                                text-underline-position: from-font;
+                                text-decoration-skip-ink: none;
+                        }
+                        .values .container .values-content .values-title p {
+                                font-family: "Inter";
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 28px;
+                                text-align: center;
+                                text-underline-position: from-font;
+                                text-decoration-skip-ink: none;
+                        }
+                        .values .container .values-content .values-boxes {
+                        width: 1, 140px;
+                            height: 420px;
+                            gap: 32px;
+                            opacity: 0px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin: 20px 0px;
+                        }
+                                .values .container .values-content .values-boxes .box {
+                                        width: 358.67px;
+                                        height: 420px;
+                                        padding: 20px 32px;
+                                        gap: 20px;
+                                        -o-border-radius: 12px ;
+                                        opacity: 0px;
+                                        display: flex;
+                                        align-items: flex-start;
+                                        justify-content: flex-start;
+                                        flex-direction: column;
+                                        border: 1px solid #3CAB90;
+                                        -webkit-border-radius: 12px ;
+                                        -moz-border-radius: 12px ;
+                                        -ms-border-radius: 12px ;
+                                        border-radius: 12px ;
+                                        background-color: #3CAB900D;
+}
+.values .container .values-content .values-boxes .box .box-img {
+    width: 70px;
+        height: 70px;
+        padding: 0px 2.19px 0px 2.19px;
+        gap: 0px;
+        opacity: 0px;
+}
+.values .container .values-content .values-boxes .box .box-img img {
+    width: 100%;
+    height: 100%;
+}
+.values .container .values-content .values-boxes .box .box-title {
+    width: 147px;
+        height: 30px;
+        gap: 0px;
+        opacity: 0px;
+}
+.values .container .values-content .values-boxes .box .box-title h3 {
+        font-family: "Inter";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+.values .container .values-content .values-boxes .box .box-Subtext {
+    width: 294.67px;
+        height: 168px;
+        gap: 0px;
+        opacity: 0px;
+}
+.values .container .values-content .values-boxes .box .box-Subtext p {
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+}
+/*  */
+.WOC .container {
+    width: 100%;
+    height: auto;
+    margin: 50px 0px;
+}
+.WOC .container .WOC-content {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+.WOC .container .WOC-content .WOC-mainBox {
+    width: 400px;
+        height: auto;
+        gap: 28px;
+        opacity: 0px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+}
+.WOC .container .WOC-content .WOC-mainBox .box-title {
+    width: 400px;
+        height: auto;
+        gap: 0px;
+        opacity: 0px;
+}
+.WOC .container .WOC-content .WOC-mainBox .box-title  h3{
+    font-family: "Inter";
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 64px;
+}
+.WOC .container .WOC-content .WOC-mainBox .box-Subtext {
+    width: 400px;
+        height: auto;
+        gap: 0px;
+        opacity: 0px;
+}
+.WOC .container .WOC-content .WOC-mainBox .box-Subtext p {
+    font-family: "Inter";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+}
+.WOC .container .WOC-content .WOC-SecondaryBox {
+        width:708px;
+        height: auto;
+        padding: 40px;
+        gap: 87px;
+        -o-border-radius: 24px;
+        opacity: 0px;
+        background-color: #3CAB900F;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        -webkit-border-radius: 24px;
+        -moz-border-radius: 24px;
+        -ms-border-radius: 24px;
+        border-radius: 24px;
+}
+.WOC .container .WOC-content .WOC-SecondaryBox .box-dot , .box-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.WOC .container .WOC-content .WOC-SecondaryBox .box-dot p {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20.16px;
+        color: #3CAB90;
+}
+.WOC .container .WOC-content .WOC-SecondaryBox .box-dot span {
+    width: 72px;
+        height: 8px;
+        gap: 0px;
+        opacity: 0px;
+}
+.avatar-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 10px;
+}
+.avatar-img .avatar-name {
+    width: 234px;
+        height: 47px;
+        gap: 9px;
+        opacity: 0px;
+        color: #1C1C1C;;
+}
+.avatar-img .avatar-name h3 {
+    font-family: "Inter";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.36px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+.avatar-img .avatar-name p {
+    font-family: "Inter";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+/*  */
+footer {
+    background-color: #283646;
+    width:100%;
+        height:auto;
+        padding: 80px 150px 80px 150px;
+        gap: 54px;
+        opacity: 0px;
+}
+footer .container {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+}
+.first-group  {
+        min-height: 126px;
+        gap: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+                flex-flow: wrap;
+        margin: 30px 0px;
+}
+
+
+.input-container {
+    position: relative;
+}
+
+.input-field {
+    width: 406px;
+    height: auto;
+    padding: 20px;
+    gap: 0px;
+    -o-border-radius: 38px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    -webkit-border-radius: 38px;
+    -moz-border-radius: 38px;
+    -ms-border-radius: 38px;
+    border-radius: 38px;
+    background-color: #4A5563;
+}
+
+.search-button {
+        position: absolute;
+        right: 0px;
+        height: auto;
+        padding: 0 10px;
+        border: none;
+        background-color: #FFBB1C;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        width: 147px;
+        height:48px;
+        padding: 12px 34px 12px 34px;
+        gap: 10px;
+        -o-border-radius: 109px;
+        opacity: 0px;
+        -webkit-border-radius: 109px;
+        -moz-border-radius: 109px;
+        -ms-border-radius: 109px;
+        border-radius: 109px;
+}
+
+
+
+.first-group .links ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+            flex-flow: wrap;
+    gap: 20px;
+    width: 499px;
+        height: auto;
+        margin: 20px 0px;
+}
+.first-group .links ul li a {
+    color: white;
+    text-decoration: none;
+}
+.first-group .two .text {
+    margin: 20px 0px;
+    font-family: "Inter";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.30000001192092896px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+.second-group {
+        height: 16px;
+        gap: 0px;
+        display: flex;
+            align-items: center;
+            justify-content: space-between;
+        opacity: 0px;
+        align-self: flex-end;
+        flex-flow: wrap;
+        margin: 30px 0px;
+}
+.second-group ul {
+    list-style: none;
+}
+.second-group .list ul li a , .second-group .text {
+    text-decoration: none;
+    color: #92989F;
+    font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.2571428716182709px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+hr {
+    background-color: #71777D;
+    width: 100%;
+}
+/* Responsive */
+
+/* Media Query for screens 500px or smaller */
+@media screen and (max-width: 500px) {
+    nav {
+            flex-direction: column;
+            gap: 10px;
+        }
+        nav .logo {
+            max-width: 100px;
+        }
+        nav ul {
+            flex-direction: column;
+            text-align: center;
+        }
+        .contact p {
+            text-align: center;
+            gap: 10px;
+        }
+        header {
+            height: auto;
+        }
+        header .hero-section {
+            height: 100vh;
+            align-items: center;
+            gap: 20px;
+        }
+        header .hero-section .hero-content {
+            width: auto;
+            height: auto;
+            align-items:  center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        header .hero-section .line {
+            width: 200px;
+        }
+        header .hero-section .hero-content .line p {
+            font-size: 10px;
+        }
+    
+        header .hero-section .hero-content .main-text h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+    
+        header .hero-section .hero-content .main-text h4 {
+            width: auto;
+            font-size: 10px;
+            text-align: center;
+        }
+        header .hero-content .buttons {
+            gap: 15px;
+        }
+    
+        header .hero-content .buttons button,
+        .shop .shop-container .shop-content .shop-button button {
+            padding: 10px 24px;
+            font-size: 12px;
+        }
+                .trade .container {
+                    width: 90%;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+        .trade .container .trade-content {
+            max-width: 594px;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .trade .container .trade-content .trade-title {
+            max-width: 594px;
+            height: auto;
+            padding: 20px 0px;
+        }
+    
+        .trade .container .trade-content .trade-title h2 {
+            font-size: 22px;
+            text-align: center;
+        }
+    
+        .trade .container .trade-content .trade-text {
+            max-width: 300px;
+            height: auto;
+            margin: 0px auto;
+        }
+    
+        .trade .container .trade-content .trade-text p {
+            font-size: 12px;
+            text-align: center;
+            color: rgba(71, 84, 103, 1);
+        }
+    
+        .trade .container .trade-content .trade-list {
+            max-width: 498px;
+            gap: 5px;
+            margin: 0px auto;
+        }
+    
+        .trade .container .trade-content .trade-list span {
+            color: rgba(132, 189, 58, 1);
+            font-size: 10px;
+            text-align: center;
+            margin-right: 2px;
+        }
+    
+        .trade .container .trade-content .trade-list ul {
+            list-style: none;
+        }
+    
+        .trade .container .trade-content .trade-list ul li {
+            max-width: 498px;
+            height: auto;
+            font-size: 15px;
+            text-align: center;
+        }
+        .trade .container .trade-img {
+            max-width: 318px;
+            max-height: 552px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .trade .container .trade-img img {
+            -o-border-radius: 12px;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            -ms-border-radius: 12px;
+            border-radius: 12px;
+            width: 269px;
+            height: 352px;
+        }
+    
+        .trade .container .trade-img .box {
+            width: 166px;
+            height: auto;
+            position: absolute;
+            left: 5px;
+            bottom: 100px;
+        }
+    
+        .trade .container .trade-img .box img {
+            width: 100%;
+            height: 100%;
+        }
+        .shop {
+            height: 70dvh;
+        }
+    
+        .shop .shop-container {
+            justify-content: center;
+        }
+    
+        .shop .shop-container .shop-content {
+            width: 80%;
+            margin: 0px auto;
+            height: auto;
+            gap: 22px;
+            opacity: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    
+        .shop .shop-container .shop-content .shop-title {
+            max-width: 478px;
+            height: auto;
+            text-align: center;
+        }
+    
+        .shop .shop-container .shop-content .shop-title h2 {
+            font-size: 32px;
+            font-weight: 500;
+        }
+    
+        .shop .shop-container .shop-content .shop-text p {
+            font-size: 15px;
+            font-weight: 500;
+            max-width: 478px;
+            text-align: center;
+        }
+        /*  */
+    
+        .solar-kit .container {
+            margin: 20px auto;
+            gap: 10px;
+        }
+    
+        .solar-title {
+            max-width: 236px;
+            height: auto;
+            gap: 14px;
+            text-align: center;
+            margin: 20px auto;
+    
+        }
+    
+        .solar-title h2 {
+            width: auto;
+            height: auto;
+            font-family: "Inter";
+            font-size: 32px;
+            font-weight: 500;
+        }
+    
+        .solar-title p {
+            width: auto;
+            height: auto;
+        }
+    
+        .solar-cards {
+            width: auto;
+            height: auto;
+            gap: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: black;
+        }
+    
+        .solar-cards .card {
+            width: 258.67px;
+            min-height: 454px;
+            gap: 0px;
+            opacity: 0px;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+        }
+    
+        .solar-cards .card .card-img {
+            width: 258.67px;
+            height: 240px;
+            gap: 0px;
+            opacity: 0px;
+        }
+    
+        .solar-cards .card .card-img img {
+            width: 100%;
+            height: 100%;
+        }
+    
+        .solar-cards .card .card-text {
+            width: 258.67px;
+            height: 214px;
+            padding: 20px 0px 0px 0px;
+            gap: 24px;
+            opacity: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px 15px;
+        }
+    
+        .solar-cards .card .card-text .card-title {
+            width: 100%;
+            height: auto;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 8px 0px;
+            text-align: center;
+        }
+    
+        .solar-cards .card .card-text .card-Subtext {
+            font-family: "Inter";
+            font-size: 13px;
+            font-weight: 400;
+            text-align: center;
+        }
+    
+        .solar-cards .card .card-text .card-link a,
+        i {
+            text-decoration: none;
+            color: rgba(60, 171, 144, 1);
+            font-family: "Inter";
+            font-size: 13px;
+            font-weight: 600;
+            padding: 10px 0px;
+            margin-right: 5px;
+        }
+                .Repairs .container {
+                    margin-top: 10px;
+                }
+        
+                .Repairs .container .Repairs-content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: auto;
+                    height: auto;
+                    padding: 22px 0px;
+                    gap: 15px;
+                    -o-border-radius: 12px;
+                    opacity: 0px;
+                    background-color: rgba(0, 0, 0, 0.57);
+                    backdrop-filter: blur(24px);
+                    -webkit-border-radius: 12px;
+                    -moz-border-radius: 12px;
+                    -ms-border-radius: 12px;
+                    border-radius: 12px;
+                }
+        
+                .Repairs .container .Repairs-content .Repairs-title {
+                    width: auto;
+                    height: auto;
+                    gap: 0px;
+                    opacity: 0px;
+                }
+        
+                .Repairs .container .Repairs-content .Repairs-title h2 {
+                    font-size: 22px;
+                    text-align: center;
+                }
+        
+                .Repairs .container .Repairs-content .Repairs-Subtext {
+                    width: auto;
+                    height: auto;
+                }
+        
+                .Repairs .container .Repairs-content .Repairs-Subtext p {
+                    font-size: 10px;
+                    font-weight: 400;
+                    text-align: center;
+                }
+         .Energy {
+             margin-bottom: 10px;
+         }
+    
+         .Energy .container {
+             width: 100%;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             margin: 10px 0px;
+             background-color: #FFBB1C0D;
+         }
+    
+         .Energy .container .Energy-content {
+             width: 90%;
+             height: 100%;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             flex-direction: column;
+             color: black;
+             text-align: center;
+         }
+    
+         .Energy .container .Energy-content .Energy-mainBox .mainBox-icon {
+             display: flex;
+             align-self: center;
+         }
+    
+         .Energy .container .Energy-content h3 {
+             font-family: "Inter";
+             font-size: 15px;
+             font-weight: 500;
+             color: #101828;
+
+             text-align: center;
+         }
+    
+         .Energy .container .Energy-content p {
+             font-size: 10px;
+             color: #475467;
+         }
+    
+         .Energy .container .Energy-content .Energy-mainBox {
+             width: auto;
+             height: auto;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             flex-direction: column;
+             gap: 10px;
+         }
+    
+         .Energy .container .Energy-content .Energy-mainBox .mainBox-title {
+             width: auto;
+             height: auto;
+         }
+    
+         .Energy .container .Energy-content .Energy-mainBox .mainBox-title h3 {
+             font-family: "Inter";
+             font-size: 22px;
+             font-weight: 500;
+             text-align: center;
+         }
+    
+         .Energy .container .Energy-content .Energy-mainBox .mainBox-Subtext {
+             width: auto;
+             height: auto;
+         }
+    
+         .Energy .container .Energy-content .Energy-mainBox .mainBox-Subtext p {
+             font-size: 15px;
+         }
+    
+         .Energy .container .Energy-content .boxGroupOne {
+             width: auto;
+             height: auto;
+             gap: 22px;
+             opacity: 0px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             flex-direction: column;
+             margin: 20px 0px;
+         }
+    
+         .Energy .container .Energy-content .boxGroupOne .box,
+         .boxGroupTwo .box {
+             width: auto;
+             height: auto;
+             padding: 24px;
+             gap: 22px;
+             text-align: center;
+         }
+    
+         .Energy .container .Energy-content .box .box-img {
+             width:auto;
+             height: auto;
+             gap: 10px;
+             -o-border-radius: 10px;
+             opacity: 0px;
+             -webkit-border-radius: 10px;
+             -moz-border-radius: 10px;
+             -ms-border-radius: 10px;
+             border-radius: 10px;
+}
+    
+         .Energy .container .Energy-content .box .box-img img {
+             width: 100%;
+             height: 100%;
+         }
+    
+         .Energy .container .Energy-content .box .box-content {
+             width: auto;
+             height:auto;
+             gap: 10px;
+            text-align: center;
+         }
+        .Energy .container .Energy-content .box .box-content h3 {
+            width: 100%;
+            text-align: center;
+        }
+         .Energy .container .Energy-content .box .box-link {
+             width: 100%;
+             height: auto;
+             gap: 8px;
+             opacity: 0px;
+             padding: 15px;
+             color: #3CAB90;
+             text-align: center;
+             text-align: center;
+         }
+    
+         .Energy .container .Energy-content .box .box-link a {
+             color: #3CAB90;
+             font-family: "Inter";
+             font-size: 10px;
+             font-weight: 600;
+             text-decoration: none;
+             text-align: center;
+             width: 100%;
+         }
+    
+         .Energy .container .Energy-content .boxGroupTwo {
+             width: auto;
+             height: auto;
+             gap: 22px;
+         }
+         .values .container {
+             width: 100%;
+             height: auto;
+             color: black;
+             margin: 20px 0px;
+         }
+    
+         .values .container .values-content {
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             flex-direction: column;
+         }
+    
+         .values .container .values-content .values-title {
+             width: 300px;
+             height: auto;
+             gap: 18px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             flex-direction: column;
+         }
+    
+         .values .container .values-content .values-title h3 {
+             font-family: "Inter";
+             font-size: 22px;
+             font-weight: 600;
+             text-align: center;
+         }
+    
+         .values .container .values-content .values-title p {
+             font-family: "Inter";
+             font-size: 18px;
+             font-weight: 400;
+             text-align: center;
+         }
+    
+         .values .container .values-content .values-boxes {
+             width: auto;
+             height: auto;
+             gap: 22px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             flex-direction: column;
+             margin: 20px 0px;
+         }
+    
+         .values .container .values-content .values-boxes .box {
+             width: 358.67px;
+             height: auto;
+             padding: 10px 32px;
+             gap: 10px;
+         }
+    
+         .values .container .values-content .values-boxes .box .box-img {
+             width: auto;
+             height: auto;
+         }
+    
+         .values .container .values-content .values-boxes .box .box-img img {
+             width: 100%;
+             height: 100%;
+         }
+    
+         .values .container .values-content .values-boxes .box .box-title {
+             width: auto;
+             height: auto;
+         }
+    
+         .values .container .values-content .values-boxes .box .box-title h3 {
+             font-family: "Inter";
+             font-size: 15px;
+             font-weight: 500;
+             text-align: center;
+         }
+    
+         .values .container .values-content .values-boxes .box .box-Subtext {
+             width: auto;
+             height: auto;
+         }
+    
+         .values .container .values-content .values-boxes .box .box-Subtext p {
+             font-family: "Inter";
+             font-size: 14px;
+             font-weight: 400;
+         }
+        .WOC .container {
+            width: 100%;
+            height: auto;
+            margin: 20px 0px;
+        }
+    
+        .WOC .container .WOC-content {
+            width: 90%;
+            height: 100%;
+            margin: 0px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: black;
+            text-align: center;
+        }
+    
+        .WOC .container .WOC-content .WOC-mainBox {
+            width: auto;
+            height: auto;
+            gap: 18px;
+
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+        }
+    
+        .WOC .container .WOC-content .WOC-mainBox .box-title {
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+    
+        .WOC .container .WOC-content .WOC-mainBox .box-title h3 {
+            font-family: "Inter";
+            font-size: 28px;
+            font-weight: 600;
+            text-align: center;
+        }
+    
+        .WOC .container .WOC-content .WOC-mainBox .box-Subtext {
+            width: auto;
+            height: auto;
+        }
+    
+        .WOC .container .WOC-content .WOC-mainBox .box-Subtext p {
+            font-family: "Inter";
+            font-size: 15px;
+        }
+    
+        .WOC .container .WOC-content .WOC-SecondaryBox {
+            width: auto;
+            height: auto;
+            padding: 30px;
+            gap: 37px;
+            -o-border-radius: 24px;
+            opacity: 0px;
+            background-color: #3CAB900F;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            -webkit-border-radius: 24px;
+            -moz-border-radius: 24px;
+            -ms-border-radius: 24px;
+            border-radius: 24px;
+        }
+    
+        .WOC .container .WOC-content .WOC-SecondaryBox .box-dot,
+        .box-info {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .WOC .container .WOC-content .WOC-SecondaryBox .box-dot p {
+            font-size: 10px;
+            font-weight: 500;
+            color: #3CAB90;
+        }
+    
+        .WOC .container .WOC-content .WOC-SecondaryBox .box-dot span {
+            width: 72px;
+            height: 8px;
+            gap: 0px;
+            opacity: 0px;
+        }
+    
+        .avatar-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .avatar-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            gap: 10px;
+        }
+    
+        .avatar-img .avatar-name {
+            width: 234px;
+            height: 47px;
+            gap: 9px;
+            opacity: 0px;
+            color: #1C1C1C;
+            ;
+        }
+    
+        .avatar-img .avatar-name h3 {
+            font-family: "Inter";
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19.36px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+    
+        .avatar-img .avatar-name p {
+            font-family: "Inter";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.36px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+        footer {
+            background-color: #283646;
+            width: 100%;
+            height: auto;
+            padding: 40px 100px;
+            gap: 24px;
+        }
+    
+        footer .container {
+            width: 90%;
+            height: 100%;
+            margin: 0px auto;
+        }
+    
+        .first-group {
+            height: auto;
+            gap: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-flow: wrap;
+            margin: 10px 0px;
+        }
+    
+    
+        .input-container {
+            position: relative;
+        }
+    
+        .input-field {
+            width: 206px;
+            height: auto;
+            padding: 5px;
+            gap: 0px;
+            -o-border-radius: 38px;
+            border: none;
+            -webkit-border-radius: 38px;
+            -moz-border-radius: 38px;
+            -ms-border-radius: 38px;
+            border-radius: 38px;
+            background-color: #4A5563;
+        }
+    
+        .search-button {
+            position: absolute;
+            right: 0px;
+            height: auto;
+            padding: 0 5px;
+            border: none;
+            background-color: #FFBB1C;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 10px;
+            max-width: 80px;
+            max-height: 28px;
+            padding: 10px 14px;
+            -o-border-radius: 109px;
+            opacity: 0px;
+            -webkit-border-radius: 109px;
+            -moz-border-radius: 109px;
+            -ms-border-radius: 109px;
+            border-radius: 109px;
+        }
+    
+    
+    
+        .first-group .links ul {
+            list-style: none;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            height: auto;
+            margin: 10px 0px;
+        }
+    
+        .first-group .links ul li a {
+            color: white;
+            text-decoration: none;
+        }
+    
+        .first-group .two .text {
+            margin: 20px 0px;
+            font-family: "Inter";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.30000001192092896px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+    
+        .second-group {
+            height: 16px;
+            gap: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0px;
+            margin: 20px 0px;
+            
+        }
+    
+        .second-group ul {
+            list-style: none;
+        }
+    
+        .second-group .list ul li a,
+        .second-group .text {
+            text-decoration: none;
+            color: #92989F;
+            font-family: Inter;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.2571428716182709px;
+            text-align: right;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+    
+        hr {
+            background-color: #71777D;
+            width: 100%;
+        }
+}
